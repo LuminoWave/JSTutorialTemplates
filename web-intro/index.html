@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>My Page</h1>
+    <form>
+      <label for="name">String: </label>
+      <input type="text" id="name" name="string" /><br /><br />
+      <label for="number">Number:</label>
+      <input
+        type="number"
+        id="number"
+        name="number"
+        min="1"
+        max="100000" /><br /><br />
+      <button type="button" onclick="myFunction()">Submit</button>
+    </form>
+
+    <div id="output">
+      <label for="output-field"><h2>Output:</h2></label>
+      <span id="text"></span>
+    </div>
+  </body>
+</html>
